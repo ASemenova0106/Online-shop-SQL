@@ -12,7 +12,7 @@ FROM (
     Country,
     SUM(Quantity * UnitPrice) as TotalPrice
     FROM default.retail
-    WHERE Quantity >0
+    WHERE Quantity > 0
     GROUP BY InvoiceNo, Country)
 GROUP BY Country
 ORDER BY sum_price DESC
@@ -30,7 +30,7 @@ FROM (
     Country,
     SUM(Quantity * UnitPrice) as TotalPrice
     FROM default.retail
-    WHERE Quantity >0 AND Country != 'United Kingdom'
+    WHERE Quantity > 0 AND Country != 'United Kingdom'
     GROUP BY InvoiceNo, Country)
 GROUP BY Country
 ORDER BY sum_price DESC
@@ -61,7 +61,7 @@ FROM (
     Country,
     SUM(Quantity * UnitPrice) as TotalPrice
     FROM default.retail
-    WHERE Quantity >0
+    WHERE Quantity > 0
     GROUP BY InvoiceNo, Country)
 GROUP BY Country
 ````
