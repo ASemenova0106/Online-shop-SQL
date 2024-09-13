@@ -20,6 +20,7 @@ ORDER BY sum_price DESC
 
 **Общая выручка магазина по странам без учета Великобритании:**
 
+````
 SELECT
     Country,
     SUM(TotalPrice) AS sum_price
@@ -33,9 +34,11 @@ FROM (
     GROUP BY InvoiceNo, Country)
 GROUP BY Country
 ORDER BY sum_price DESC
+````
 
 **Число уникальных клиентов в Великобритании по месяцам:**
 
+````
 SELECT
     Country,
     toStartOfMonth(InvoiceDate) as month,
@@ -44,9 +47,11 @@ FROM default.retail
 WHERE Country = 'United Kingdom'
 GROUP BY
     Country, month
+````
 
 **Средний чек заказов по странам:**
 
+````
 SELECT
     Country,
     AVG(TotalPrice) AS avg_price
@@ -59,11 +64,14 @@ FROM (
     WHERE Quantity >0
     GROUP BY InvoiceNo, Country)
 GROUP BY Country
+````
 
 **ТОП-20 самых продаваемых товаров в магазине:**
 
+````
 SELECT StockCode, Description, SUM(ABS(Quantity)) as sum_quantity
 FROM default.retail
 GROUP BY StockCode, Description
 ORDER BY sum_quantity DESC
 LIMIT 20
+````
