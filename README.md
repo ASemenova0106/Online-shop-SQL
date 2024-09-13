@@ -15,9 +15,12 @@
 5. Дала рекомендации по улучшению продаж и дальнейшему анализу на основе полученных данных и графиков.
 <hr>
 
-Сам дашборд на платформе Redash:
+**Сам дашборд на платформе Redash:**
+
 https://redash.lab.karpov.courses/public/dashboards/8oTnRoRcF00570E0hpHZ8yMsK7o5AjzuXSsqGG7r?org_slug=default
 
-Скриншот дашборда в формате .png:
+**Скриншот дашборда в формате .png:**
 
-Примеры запросов на языке SQL, которые были использованы в данном проекте:
+https://github.com/ASemenova0106/Online-shop-SQL-/blob/main/dashboard_online_shop.png
+
+**Примеры запросов на языке SQL, которые были использованы в данном проекте:**
