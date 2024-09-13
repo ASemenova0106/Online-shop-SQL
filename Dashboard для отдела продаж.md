@@ -2,6 +2,7 @@
 
 **Общая выручка магазина по всем странам:**
 
+````
 SELECT
     Country,
     SUM(TotalPrice) AS sum_price
@@ -15,6 +16,7 @@ FROM (
     GROUP BY InvoiceNo, Country)
 GROUP BY Country
 ORDER BY sum_price DESC
+````
 
 **Общая выручка магазина по странам без учета Великобритании:**
 
