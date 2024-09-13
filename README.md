@@ -25,3 +25,5 @@ https://redash.lab.karpov.courses/public/dashboards/8oTnRoRcF00570E0hpHZ8yMsK7o5
 https://github.com/ASemenova0106/Online-shop-SQL-/blob/main/dashboard_online_shop.png
 
 **Примеры запросов на языке SQL, которые были использованы в данном проекте:**
+
+https://github.com/ASemenova0106/Online-shop-SQL/blob/main/SQL%20for%20Dashboard.md
