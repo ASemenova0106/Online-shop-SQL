@@ -16,7 +16,7 @@
 5. Дала рекомендации по улучшению продаж и дальнейшему анализу на основе полученных данных и графиков.
 <hr>
 
-**Сам дашборд на платформе Redash:**
+**Сам дашборд и комментарии к нему на платформе Redash:**
 
 https://redash.lab.karpov.courses/public/dashboards/8oTnRoRcF00570E0hpHZ8yMsK7o5AjzuXSsqGG7r?org_slug=default
 
